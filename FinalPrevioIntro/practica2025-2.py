@@ -49,7 +49,7 @@ def mostrarPuntaje(li1,li2):
     print('Codigos \t Estrellas')
     for i in range(len(li1)):
         print("%7d \t %8d" % (li1[i],li2[i]))
-    print(mayorPuntaje(li2))
+    print(' -------------- ')
 
 
 def main():
