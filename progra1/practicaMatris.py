@@ -1,0 +1,1 @@
+#Una vez creada la matriz se rellena con números. Podemos ingresarlos por teclado. Luego se imprimirá por pantalla.

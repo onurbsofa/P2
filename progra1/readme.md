@@ -8,7 +8,6 @@ Este repositorio contiene una recopilación de conceptos esenciales y ejemplos p
 2. [Diccionarios](#-diccionarios-en-python)
 3. [Excepciones](#-manejo-de-excepciones)
 4. [Tuplas](#-tuplas-en-python)
-5. [Expresiones Regulares](#-expresiones-regulares)
 6. [Funciones](#-funciones-en-python)
 7. [Funciones Lambda](#-funciones-lambda)
 8. [Listas](#-listas-en-python)
@@ -88,23 +87,6 @@ print(dias[2])  # miércoles
 
 ---
 
-## 🔍 Expresiones Regulares
-
-### Conceptos Clave
-- `re.search()` para buscar coincidencias
-- `re.findall()` para encontrar todas las coincidencias
-
-### Ejemplo
-```python
-import re
-texto = "Mi correo es ejemplo@gmail.com"
-patron = r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+"
-resultado = re.search(patron, texto)
-print(resultado.group())  # ejemplo@gmail.com
-```
-
----
-
 ## 🔧 Funciones en Python
 
 ### Conceptos Clave
@@ -171,14 +153,6 @@ Crea un programa que pida al usuario ingresar líneas de texto y las guarde en u
 
 ### 📌 Tarea 2: Diccionarios
 Crea un diccionario que almacene información de 3 contactos (nombre, teléfono, email) y permita buscar un contacto por su nombre.
-
-### 📌 Tarea 3: Expresiones Regulares
-Crea un programa que valide si un email ingresado es correcto usando expresiones regulares.
-
----
-
-## 🚀 Contribuciones
-Si deseas agregar más ejemplos o mejorar las explicaciones, ¡no dudes en hacer un pull request!
 
 ---
 
