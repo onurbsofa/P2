@@ -1,3 +1,5 @@
+
+
 try:
 
     archivo = open(pedidos1.txt","r")
@@ -29,11 +31,8 @@ try:
     for i in range(len(lista_cod_articulo)):
         nombre_mes = meses[lista_meses[i]-1]
         print("El articulo" , lista_cod_articulo[i], "en el mes de", nombre_mes)
-
-
 except Exception:
     print("Error")
-
 finally:
     archivo.close()
 
